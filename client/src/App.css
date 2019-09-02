@@ -1,0 +1,65 @@
+
+.selected {
+    font-weight: bold;
+    color: pink;
+}
+
+.movie-card-link {
+    text-decoration: none;
+}
+
+.movie-card-link:link {
+    color:blue;
+}
+
+.movie-card-link:visited {
+    color:black;
+}
+.movie-card{
+    background: rgb(3, 21, 77);
+    width:75%;
+    text-align: center;
+    height:auto;
+    color:white;
+    font-size: larger;
+    font-weight: bolder
+ 
+}
+
+.saved-list {
+    display:flex;
+    width:75%;
+   text-align: center;
+   background: grey
+}
+.saved-list button {
+    
+    
+    margin-right:3rem;
+      
+}
+
+#root {
+    width:
+        1200px;
+        background:skyblue;
+        display:flex;
+        margin-left: 10rem;
+        flex-direction: column-reverse;
+        
+    
+}
+.home-button{
+    background-color :black;
+    color :white;
+    width:16rem;
+    height:1.5rem;
+    border-radius: 10px;
+}
+.save-button{
+    background-color:red;
+    color :white;
+    width:2rem;
+    height:1.5rem;
+    border-radius: 10px;
+}
